@@ -1,0 +1,138 @@
+.noTopMargin {
+  /* Ajout */
+  position: relative;
+  height: 91vh;
+}
+@media screen and (max-height: 1354px) {
+  .noTopMargin {
+    height: 90vh;
+  }
+}
+@media screen and (max-height: 1254px) {
+  .noTopMargin {
+    height: 89vh;
+  }
+}
+@media screen and (max-height: 1154px) {
+  .noTopMargin {
+    height: 87vh;
+  }
+}
+
+@media screen and (max-height: 1054px) {
+  .noTopMargin {
+    height: 86vh;
+  }
+}
+
+@media screen and (max-height: 990px) {
+  .noTopMargin {
+    height: 85vh;
+  }
+}
+@media screen and (max-height: 922px) {
+  .noTopMargin {
+    height: 83vh;
+  }
+}
+@media screen and (max-height: 918px) {
+  .noTopMargin {
+    height: 85vh;
+  }
+}
+@media screen and (max-height: 888px) {
+  .noTopMargin {
+    height: 83vh;
+  }
+}
+@media screen and (max-height: 777px) {
+  .noTopMargin {
+    height: 82vh;
+  }
+}
+@media screen and (max-height: 690px) {
+  .noTopMargin {
+    height: 79vh;
+  }
+}
+@media screen and (max-height: 640px) {
+  .noTopMargin {
+    height: 77vh;
+  }
+}
+@media screen and (max-height: 595px) {
+  .noTopMargin {
+    height: 76vh;
+  }
+}
+@media screen and (max-height: 570px) {
+  .noTopMargin {
+    height: 75vh;
+  }
+}
+/* @media screen and (max-width: 409px) {
+  .noTopMargin {
+    height: 89vh;
+  }
+} */
+
+.sign-in-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-in-content {
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  height: 380px;
+  /* Ajout */
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+/* .sign-in-icon {
+    font-size: 5rem;
+} */
+
+.input-remember {
+  display: flex;
+}
+
+.input-remember label {
+  margin-left: 0.25rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.input-wrapper label {
+  font-weight: bold;
+}
+
+.input-wrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.msgErr {
+  display: block;
+  margin-top: 5px;
+  color: red;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: -9px;
+}

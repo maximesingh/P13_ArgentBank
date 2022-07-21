@@ -1,0 +1,27 @@
+.err404 {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.err404 h1 {
+  font-size: 9rem;
+}
+
+@media screen and (max-width: 522px) {
+  .err404 h1 {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .err404 h1 {
+    font-size: 5rem;
+  }
+  .err404 {
+    width: 100vw;
+    height: 30vh;
+  }
+}

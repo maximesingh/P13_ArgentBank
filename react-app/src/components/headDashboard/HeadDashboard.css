@@ -1,0 +1,57 @@
+.header {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.edit-button {
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input {
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.input::placeholder {
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.firstName {
+    margin-right: 5px;
+}
+
+.familyName {
+    margin-left: 5px;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save-button {
+    margin-right: 5px;
+}
+
+.cancel-button {
+    margin-left: 5px;
+}
+
+@media (max-width: 409px){
+    .header {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,40 @@
+.errorPage {
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 10em;
+  &404 {
+    font-weight: 700;
+    font-size: 288px;
+    margin: 0;
+  }
+  &Text {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 5em;
+  }
+  &Link {
+    font-size: 18px;
+    color: #222;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .errorPage {
+    margin: auto 0;
+    &404 {
+      font-size: 96px;
+      margin-top: 1em;
+    }
+    &Text {
+      font-size: 18px;
+      text-align: center;
+    }
+    &Link {
+      font-size: 14px;
+    }
+  }
+}
